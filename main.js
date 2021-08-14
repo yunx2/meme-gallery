@@ -1,4 +1,5 @@
 
+
 const gallery = document.querySelector('main');
 
 const imageUrls = [
@@ -29,3 +30,5 @@ function updateGallery() {
     gallery.appendChild(imageElement);
   }
 }
+
+document.addEventListener('DOMContentLoaded', updateGallery);

@@ -8,6 +8,13 @@ body {
   background-color: #2e3035;
 }
 
+main {
+  max-width: 960px;
+  margin: 32px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 header {
   text-align: center
 }
@@ -42,4 +49,14 @@ input:focus, button:focus {
 
 h1, input, button {
   color: #ffffff;
+}
+
+.gallery-image {
+  width: 310px;
+  height: 310px;
+  margin: 5px;
+  border: 6px solid #48494b;
+  border-radius: 3px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  object-fit: cover;
 }
