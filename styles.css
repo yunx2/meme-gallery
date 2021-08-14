@@ -29,22 +29,17 @@ button {
   background-color: #1bb76e;
 }
 
-button,
-input {
+button, input {
   height: 31px;
   border: none;
   border-radius: 3px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-input:focus,
-button:focus {
+input:focus, button:focus {
   outline: none;
 }
 
-
-h1,
-input,
-button {
+h1, input, button {
   color: #ffffff;
 }
