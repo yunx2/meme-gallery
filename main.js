@@ -8,12 +8,11 @@ const imageUrlInput = document.querySelector('input');
 const addImageButton = document.querySelector('button');
 
 const handleClick = function() {
-  let inputValue = imageUrlInput.value;
   if (inputValue === '') {
     console.log('add an url')
   } else {
-    imageUrls.push(inputValue);
-    inputValue = '';
+    imageUrls.push(imageUrlInput.value);
+    imageUrlInput.value = '';
     updateGallery();
     // console.log(imageUrls);
   }
